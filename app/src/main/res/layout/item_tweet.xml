@@ -33,4 +33,17 @@
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
         tools:text="Tweeting something where the words are the context of the tweet" />
+
+    <TextView
+        android:id="@+id/tvTimeStamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvBody"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:gravity = "right"
+        android:layout_toEndOf="@+id/tvScreenName"
+        tools:text="1 hr" />
 </RelativeLayout>
